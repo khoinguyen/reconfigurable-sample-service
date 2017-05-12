@@ -1,0 +1,16 @@
+{
+  "environment": "development",
+  "hydra": {
+    "serviceName": "reconfigurable-sample-service",
+    "serviceIP": "",
+    "servicePort": 0,
+    "serviceType": "reconfigurable-sample",
+    "serviceDescription": "",
+    "redis": {
+      "url": "127.0.0.1",
+      "port": 6379,
+      "db": 15
+    }
+  },
+  "test": "old config"
+}
